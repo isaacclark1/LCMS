@@ -1,0 +1,46 @@
+.amplify-button {
+  background-color: #1e40af;
+  color: #fff;
+}
+
+.amplify-button:hover {
+  background-color: #1e3a8a;
+  box-shadow: 0 0 10px #1e40af;
+  border-color: #1e40af;
+}
+
+[data-amplify-authenticator] [data-amplify-router] {
+  background-color: #000;
+  border-width: 0;
+}
+
+.amplify-label {
+  color: #fff;
+}
+
+.amplify-input {
+  border-color: #fff;
+  color: #fff;
+}
+
+.amplify-input:focus {
+  box-shadow: 0 0 10px #1e40af;
+  border-color: #1e40af;
+}
+
+.amplify-field__show-password {
+  border-color: #fff;
+}
+
+.amplify-field__show-password:focus {
+  box-shadow: 0 0 10px #1e40af;
+  border-color: #1e40af;
+}
+
+.amplify-button--link {
+  background-color: #000;
+}
+
+.amplify-heading {
+  color: #fff;
+}

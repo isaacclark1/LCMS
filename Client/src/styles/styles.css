@@ -1,0 +1,36 @@
+.blur-background {
+  overflow: hidden;
+  background-color: #000;
+  opacity: 0.25;
+}
+
+/* Remove calendar icon in chrome, safari and edge */
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+/* Remove calendar icon in firefox */
+input[type="date"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.max-height-30-rem {
+  max-height: 30rem;
+}
+
+/*
+Position top left corner of container centre of viewport and then
+move it left and up 50% ensure it is centred
+*/
+.centre-fixed-dialog {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ios-scroll {
+  -webkit-overflow-scrolling: touch;
+}
